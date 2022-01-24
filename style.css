@@ -1,0 +1,70 @@
+    body {
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 18px;
+        background: linear-gradient(45deg, hsl(185, 75%, 39%), hsl(185, 73%, 80%));
+    }
+    
+    .card {
+        width: 350px;
+        background-color: white;
+        margin: 200px auto;
+        overflow: hidden;
+        border-radius: 8px;
+        text-align: center;
+        position: relative;
+        color: hsl(0, 0%, 59%);
+        box-shadow: 2px 2px 8px hsl(227, 10%, 46%);
+    }
+    
+    .background-cover {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    .profile-picture {
+        border-radius: 50%;
+        position: absolute;
+        top: 90px;
+        left: 125px;
+        border: 5px solid white;
+    }
+    
+    .name-surname {
+        color: hsl(229, 23%, 23%);
+        font-weight: 700;
+        font-size: 22px;
+    }
+    
+    .age {
+        color: hsl(0, 0%, 59%);
+        font-size: 22px;
+        margin-left: 5px;
+    }
+    
+    #spacer {
+        background-color: hsl(0, 0%, 59%);
+        height: 1px;
+        border: 0;
+        margin: 30px 0;
+        opacity: 0.3;
+    }
+    
+    .flex-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    
+    .flex-counter {
+        text-transform: uppercase;
+        text-align: center;
+        color: hsl(229, 23%, 23%);
+        font-weight: 700;
+        font-size: 22px;
+    }
+    
+    .flex-counted {
+        text-transform: capitalize;
+        text-align: center;
+    }
